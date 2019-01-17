@@ -1,0 +1,189 @@
+html *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(3a337da9b3676cd682513179aa828058d0c57eb2.jpg) fixed no-repeat ;
+    background-size: cover;
+    
+}
+.contain{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(85, 85, 85, 0.575);
+}
+header{
+    
+    
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    
+}
+label{/*لك لما ما بكون أيليمنت مااااااااااااا بدووووووووو نقططططططططة .!.!.!.!.!. مشان الوقت مو مشان شي*/
+    
+    
+    font-size: 26px;
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    top: 28px;
+    
+    
+    
+}
+
+#toggle{
+    display: block;
+    width: 10px;
+    position: relative;
+    top: 38px;
+    left: 10px;
+    display: none;
+}
+
+.logo{
+    position: relative;
+    width: 200px;
+    height: 140px;
+    left: 50px;
+    font-size: 37px;
+    
+    color: orangered;
+    top: 45px;
+}
+#word{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+nav{
+    
+    position: relative;
+    
+    
+    right: 59px;
+    top: 50px;
+
+    
+    
+}
+ul{
+    list-style: none;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+    
+}
+li{
+    list-style: none;
+    padding: 0px;
+    margin: 10px;
+    
+    position: relative;
+   
+    
+   
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+}
+li::after{
+    content:'';
+    display: block;
+    height: 2.8px;
+    width: 0px;
+    right: 0px;
+   
+    transition: all 0.1s;
+    top: 35px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    
+}
+li:hover ::after{
+    content:'';
+    display: block;
+    height: 2.8px;
+    width: 59px;
+    right: 0px;
+    left: 0px;
+    background: orangered;
+    
+    top: 39px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.images{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   top: 200px;
+   position: relative;
+}
+.im{
+    width: 50px;
+    height: 50px;
+    
+}
+h1{
+    
+    top: 250px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: aliceblue;
+    
+
+}
+h1::after{
+    content:'';
+    display: flex;
+    height: 2.8px;
+    width: 59px;
+    top: 70px;
+    background: orangered;
+    
+    
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+h2{
+    color: aliceblue;
+    top: 290px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+footer{
+    
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
